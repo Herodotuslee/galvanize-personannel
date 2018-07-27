@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Galvanize Personnel</title>
+        <link rel="stylesheet" href="./assets/styles/main.css">
+    </head>
+    <body>
+      <h1>Galvanize Personnel</h1>
+      <form>
+        <label for=firstname>First name:</label><br>
+        <input type="text" name="firstname" id='firstname'><br>
+        <label for=lastname>Last name:</label><br>
+        <input type="text" name="lastname" id='lastname'><br>
+        <select id=menu>
+          <option disabled selected>Select an option here</option>
+
+        </select>
+
+        <section>
+            <img id='role-img' src="http://via.placeholder.com/275x275" alt="role picture">
+        </section>
+
+         <button class='save' type='submit'>Save</button>
+           <p class="save-status"></p>
+
+
+      </form>
+
+
+
+
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="./assets/scripts/app.js" charset="utf-8"></script>
+    </body>
+</html>

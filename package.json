@@ -1,0 +1,22 @@
+{
+  "name": "galvanize-personnel",
+  "version": "1.0.0",
+  "description": "You are making an app for your new company that assigns roles to employees. You'll need to:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/galvanize-personnel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/galvanize-personnel/issues"
+  },
+  "homepage": "https://github.com/gSchool/galvanize-personnel#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
